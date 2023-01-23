@@ -41,11 +41,11 @@ Resources:
         yum install python3 -y
         pip3 install flask
         cd /home/ec2-user
-        wget https://raw.githubusercontent.com/XXXXXXXXXX/my-projects-2/main/aws/projects/Project-001-Roman-Numerals-Converter/app.py
+        wget https://raw.githubusercontent.com/abilgin97/romanconverter/main/app.py?token=GHSAT0AAAAAAB5XZVTVD32W7QDPE4PF3RQCY6O3JEQ
         mkdir templates
         cd templates
-        wget https://raw.githubusercontent.com/XXXXXXXXXX/my-projects-2/main/aws/projects/Project-001-Roman-Numerals-Converter/templates/index.html
-        wget https://raw.githubusercontent.com/XXXXXXXXXX/my-projects-2/main/aws/projects/Project-001-Roman-Numerals-Converter/templates/result.html
+        wget https://raw.githubusercontent.com/abilgin97/romanconverter/main/templates/index.html?token=GHSAT0AAAAAAB5XZVTVKABT6M2VIJODMVUCY6O3R7A
+        wget https://raw.githubusercontent.com/abilgin97/romanconverter/main/templates/result.html?token=GHSAT0AAAAAAB5XZVTVX2MZGNH4ZXO2TRGCY6O3SKA
         cd ..
         python3 app.py
       Tags:
