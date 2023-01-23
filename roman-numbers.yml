@@ -41,11 +41,11 @@ Resources:
         yum install python3 -y
         pip3 install flask
         cd /home/ec2-user
-        wget raw.githubusercontent.com/abilgin97/romanconverter/main/app.py?token=GHSAT0AAAAAAB5XZVTVD32W7QDPE4PF3RQCY6O3JEQ
+        wget raw.githubusercontent.com/abilgin97/romanconverter/main/app.py?token=GHSAT0AAAAAAB5XZVTUVV4M6LSCLRRBFTXUY6O4PWA
         mkdir templates
         cd templates
-        wget raw.githubusercontent.com/abilgin97/romanconverter/main/templates/index.html?token=GHSAT0AAAAAAB5XZVTVKABT6M2VIJODMVUCY6O3R7A
-        wget raw.githubusercontent.com/abilgin97/romanconverter/main/templates/result.html?token=GHSAT0AAAAAAB5XZVTVX2MZGNH4ZXO2TRGCY6O3SKA
+        wget raw.githubusercontent.com/abilgin97/romanconverter/main/templates/index.html?token=GHSAT0AAAAAAB5XZVTUQAPLAU5BUTT3E6XMY6O4QUA
+        wget raw.githubusercontent.com/abilgin97/romanconverter/main/templates/result.html?token=GHSAT0AAAAAAB5XZVTVIEU74HG6UF4EEXCUY6O4RJQ
         cd ..
         python3 app.py
       Tags:
